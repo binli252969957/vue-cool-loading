@@ -1,0 +1,352 @@
+.google-animation-8 {
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  .shape {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 40%;
+    opacity: 0.5;
+  }
+  .shape-1 {
+    left: -1.5em;
+    -webkit-animation: Animation8Shape1 1.5s ease infinite;
+    -moz-animation: Animation8Shape1 1.5s ease infinite;
+    -ms-animation: Animation8Shape1 1.5s ease infinite;
+    -o-animation: Animation8Shape1 1.5s ease infinite;
+    animation: Animation8Shape1 1.5s ease infinite;
+  }
+  .shape-2 {
+    left: 0.5em;
+    -webkit-animation: Animation8Shape2 1.5s ease infinite 0.5s;
+    -moz-animation: Animation8Shape2 1.5s ease infinite 0.5s;
+    -ms-animation: Animation8Shape2 1.5s ease infinite 0.5s;
+    -o-animation: Animation8Shape2 1.5s ease infinite 0.5s;
+    animation: Animation8Shape2 1.5s ease infinite 0.5s;
+  }
+  .shape-3 {
+    left: 2.5em;
+    -webkit-animation: Animation8Shape3 1.5s ease infinite 0.8s;
+    -moz-animation: Animation8Shape3 1.5s ease infinite 0.8s;
+    -ms-animation: Animation8Shape3 1.5s ease infinite 0.8s;
+    -o-animation: Animation8Shape3 1.5s ease infinite 0.8s;
+    animation: Animation8Shape3 1.5s ease infinite 0.8s;
+  }
+  .shape-4 {
+    left: 4.5em;
+    -webkit-animation: Animation8Shape4 1.5s ease infinite 1s;
+    -moz-animation: Animation8Shape4 1.5s ease infinite 1s;
+    -ms-animation: Animation8Shape4 1.5s ease infinite 1s;
+    -o-animation: Animation8Shape4 1.5s ease infinite 1s;
+    animation: Animation8Shape4 1.5s ease infinite 1s;
+  }
+}
+
+@-webkit-keyframes Animation8Shape1 {
+  0% {
+    -webkit-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -webkit-transfrom: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-moz-keyframes Animation8Shape1 {
+  0% {
+    -moz-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -moz-transfrom: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -moz-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-ms-keyframes Animation8Shape1 {
+  0% {
+    -ms-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -ms-transfrom: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -ms-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-o-keyframes Animation8Shape1 {
+  0% {
+    -o-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -o-transfrom: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -o-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@keyframes Animation8Shape1 {
+  0% {
+    transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-webkit-keyframes Animation8Shape2 {
+  0% {
+    -webkit-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-moz-keyframes Animation8Shape2 {
+  0% {
+    -moz-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -moz-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -moz-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-ms-keyframes Animation8Shape2 {
+  0% {
+    -ms-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -ms-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -ms-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-o-keyframes Animation8Shape2 {
+  0% {
+    -o-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -o-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -o-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@keyframes Animation8Shape2 {
+  0% {
+    transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-webkit-keyframes Animation8Shape3 {
+  0% {
+    -webkit-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-moz-keyframes Animation8Shape3 {
+  0% {
+    -moz-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -moz-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -moz-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-ms-keyframes Animation8Shape3 {
+  0% {
+    -ms-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -ms-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -ms-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-o-keyframes Animation8Shape3 {
+  0% {
+    -o-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -o-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -o-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@keyframes Animation8Shape3 {
+  0% {
+    transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-webkit-keyframes Animation8Shape4 {
+  0% {
+    -webkit-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-moz-keyframes Animation8Shape4 {
+  0% {
+    -moz-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -moz-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -moz-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-ms-keyframes Animation8Shape4 {
+  0% {
+    -ms-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -ms-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -ms-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@-o-keyframes Animation8Shape4 {
+  0% {
+    -o-transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    -o-transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    -o-transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+
+@keyframes Animation8Shape4 {
+  0% {
+    transfrom: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transfrom: scale(0.5);
+    opacity: 0.5;
+  }
+}
+

@@ -1,0 +1,284 @@
+.google-animation-3 {
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-animation: Animation3Container 1s ease infinite;
+  -moz-animation: Animation3Container 1s ease infinite;
+  -ms-animation: Animation3Container 1s ease infinite;
+  -o-animation: Animation3Container 1s ease infinite;
+  animation: Animation3Container 1s ease infinite;
+  .shape {
+    width: 1.2em;
+    height: 1.2em;
+    position: absolute;
+  }
+  .shape-1 {
+    left: 0;
+    -webkit-border-top-left-radius: 100%;
+    border-top-left-radius: 100%;
+    -webkit-animation: Animation3Shape1 0.5s ease infinite alternate;
+    -moz-animation: Animation3Shape1 0.5s ease infinite alternate;
+    -ms-animation: Animation3Shape1 0.5s ease infinite alternate;
+    -o-animation: Animation3Shape1 0.5s ease infinite alternate;
+    animation: Animation3Shape1 0.5s ease infinite alternate;
+  }
+  .shape-2 {
+    right: 0;
+    -webkit-border-top-right-radius: 100%;
+    border-top-right-radius: 100%;
+    -webkit-animation: Animation3Shape2 0.5s ease infinite alternate;
+    -moz-animation: Animation3Shape2 0.5s ease infinite alternate;
+    -ms-animation: Animation3Shape2 0.5s ease infinite alternate;
+    -o-animation: Animation3Shape2 0.5s ease infinite alternate;
+    animation: Animation3Shape2 0.5s ease infinite alternate;
+  }
+  .shape-3 {
+    bottom: 0;
+    -webkit-border-bottom-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    -webkit-animation: Animation3Shape3 0.5s ease infinite alternate;
+    -moz-animation: Animation3Shape3 0.5s ease infinite alternate;
+    -ms-animation: Animation3Shape3 0.5s ease infinite alternate;
+    -o-animation: Animation3Shape3 0.5s ease infinite alternate;
+    animation: Animation3Shape3 0.5s ease infinite alternate;
+  }
+  .shape-4 {
+    right: 0;
+    bottom: 0;
+    -webkit-border-bottom-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    -webkit-animation: Animation3Shape4 0.5s ease infinite alternate;
+    -moz-animation: Animation3Shape4 0.5s ease infinite alternate;
+    -ms-animation: Animation3Shape4 0.5s ease infinite alternate;
+    -o-animation: Animation3Shape4 0.5s ease infinite alternate;
+    animation: Animation3Shape4 0.5s ease infinite alternate;
+  }
+}
+
+
+@-webkit-keyframes Animation3Shape1 {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(0.8em, 0.8em);
+  }
+}
+
+@-moz-keyframes Animation3Shape1 {
+  0% {
+    -moz-transform: translate(0, 0);
+  }
+  100% {
+    -moz-transform: translate(0.8em, 0.8em);
+  }
+}
+
+@-ms-keyframes Animation3Shape1 {
+  0% {
+    -ms-transform: translate(0, 0);
+  }
+  100% {
+    -ms-transform: translate(0.8em, 0.8em);
+  }
+}
+
+@-o-keyframes Animation3Shape1 {
+  0% {
+    -o-transform: translate(0, 0);
+  }
+  100% {
+    -o-transform: translate(0.8em, 0.8em);
+  }
+}
+
+@keyframes Animation3Shape1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0.8em, 0.8em);
+  }
+}
+
+@-webkit-keyframes Animation3Shape2 {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-0.8em, 0.8em);
+  }
+}
+
+@-moz-keyframes Animation3Shape2 {
+  0% {
+    -moz-transform: translate(0, 0);
+  }
+  100% {
+    -moz-transform: translate(-0.8em, 0.8em);
+  }
+}
+
+@-ms-keyframes Animation3Shape2 {
+  0% {
+    -ms-transform: translate(0, 0);
+  }
+  100% {
+    -ms-transform: translate(-0.8em, 0.8em);
+  }
+}
+
+@-o-keyframes Animation3Shape2 {
+  0% {
+    -o-transform: translate(0, 0);
+  }
+  100% {
+    -o-transform: translate(-0.8em, 0.8em);
+  }
+}
+
+@keyframes Animation3Shape2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-0.8em, 0.8em);
+  }
+}
+
+@-webkit-keyframes Animation3Shape3 {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(0.8em, -0.8em);
+  }
+}
+
+@-moz-keyframes Animation3Shape3 {
+  0% {
+    -moz-transform: translate(0, 0);
+  }
+  100% {
+    -moz-transform: translate(0.8em, -0.8em);
+  }
+}
+
+@-ms-keyframes Animation3Shape3 {
+  0% {
+    -ms-transform: translate(0, 0);
+  }
+  100% {
+    -ms-transform: translate(0.8em, -0.8em);
+  }
+}
+
+@-o-keyframes Animation3Shape3 {
+  0% {
+    -o-transform: translate(0, 0);
+  }
+  100% {
+    -o-transform: translate(0.8em, -0.8em);
+  }
+}
+
+@keyframes Animation3Shape3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0.8em, -0.8em);
+  }
+}
+
+@-webkit-keyframes Animation3Shape4 {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-0.8em, -0.8em);
+  }
+}
+
+@-moz-keyframes Animation3Shape4 {
+  0% {
+    -moz-transform: translate(0, 0);
+  }
+  100% {
+    -moz-transform: translate(-0.8em, -0.8em);
+  }
+}
+
+@-ms-keyframes Animation3Shape4 {
+  0% {
+    -ms-transform: translate(0, 0);
+  }
+  100% {
+    -ms-transform: translate(-0.8em, -0.8em);
+  }
+}
+
+@-o-keyframes Animation3Shape4 {
+  0% {
+    -o-transform: translate(0, 0);
+  }
+  100% {
+    -o-transform: translate(-0.8em, -0.8em);
+  }
+}
+
+@keyframes Animation3Shape4 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-0.8em, -0.8em);
+  }
+}
+
+@-webkit-keyframes Animation3Container {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@-moz-keyframes Animation3Container {
+  0% {
+    -moz-transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    -moz-transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@-ms-keyframes Animation3Container {
+  0% {
+    -ms-transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    -ms-transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@-o-keyframes Animation3Container {
+  0% {
+    -o-transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    -o-transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes Animation3Container {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
